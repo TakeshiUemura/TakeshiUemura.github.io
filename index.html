@@ -5,41 +5,62 @@
 <!-- f=1.272020 -->
 <style type="text/css">
 	<!--
-	body	{
-	background-color: rgb(171, 171, 171);
+	body{
+	background-color: rgb(159, 171, 171);
+	padding: 0;
+	margin: 0;
 	}
+
 	#nav ul {
 /*	list-style-type: none;
 */	/*箇条書きのポッチを消す*/
+/*background-color: rgb(0, 171, 171);*/
 	padding: 0;
-	margin: 0;
-	text-align:left
+	margin: 5px;
+	width: 569px;
+	margin-right: auto;
+	margin-left : auto;
+	text-align:left;
 	}
 
 /*	↓id="nav"の中のulの中のliに対してCSSを適用*/
-#nav ul li { 
+	#nav ul li { 
 	display: inline-block;
 	/*inline-blockにします*/
 	width: 127px;
 	height: 100px;
 	padding: 5px;
-	margin: 5px;
+	margin: 0 1px 5px 0;
 	vertical-align: top;
 	text-align:left;
-	background-color:rgb(127, 127, 127);
+	background-color:rgb(203, 203, 203);
 	font-weight: bold;
-	color:white
-  }
+	color:white;
+	}
+
+	a :hover{ 
+	box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+	}
 	-->
 </style>
 </head>
 <body>
 	<div id="nav">
 		<ul>
-			<a href = "https://www.google.com/maps/contrib/116557022487388364753/photos"><li>GoogleMap</br>投稿写真一覧</li></a>
-			<a href = "1030a.html"><li>大怪獣サロン</br>(PC専用viewer)</br></br>three.js</li></a>
-			<li>coming</br>soon</li>
+			<a href = "https://www.google.com/maps/contrib/116557022487388364753/photos">
+				<li>
+					GoogleMap</br>投稿写真一覧</br></br>GoogleCom
+				</li></a>
+			<a href = "1030a.html">
+				<li>
+					パノラマviewer</br>(大怪獣サロン)</br></br>ThreeJs
+				</li></a>
+
+				<li></br></br></br>ComingSoon</li>
+<!--
+	<li></br></br></br>ComingSoon</li>
+-->
 		</ul>
-</div>
+	</div>
 </body>
 </html>
