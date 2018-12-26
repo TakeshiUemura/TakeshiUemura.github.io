@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>My1stA-Frame</title>
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+<body>
+<!--
+<a href="https://webnation.co.jp/%E3%80%8Ca-frame%E3%80%8D%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E5%85%A8%E5%A4%A9%E7%90%83%E7%94%BB%E5%83%8F%E3%82%923%E5%88%86%E3%81%A7%E3%82%B5%E3%82%A4%E3%83%88%E3%81%AB%E5%9F%8B%E3%82%81%E8%BE%BC/">参考資料</a>
+-->
+
+<a-scene>
+  <!-- ここにシーンに追加するオブジェクトを記述していきます -->
+  <a-assets>
+    <!-- 全天球画像 -->
+    <img id="sky" src="PANO_1215b.JPG">
+    <!--chromeでローカル画像を使う場合は起動オプションに「 --allow-file-access-from-files」を設定-->
+  </a-assets>
+  <!-- 全天球背景 -->
+  <a-sky src="#sky" rotation="0 -130 0"></a-sky>
+</a-scene>
+</body>
+</html>
