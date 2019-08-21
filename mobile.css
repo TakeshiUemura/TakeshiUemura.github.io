@@ -1,0 +1,29 @@
+
+@charset "UTF-8";
+
+#nav ul {
+    /*	list-style-type: none;*/	/*箇条書きのポッチを消す*/
+        padding: 0;
+        margin: 5px;
+        width: 90%;
+        margin-right: auto;
+        margin-left : auto;
+        text-align:left;
+        }
+    
+    /*	↓id="nav"の中のulの中のliに対してCSSを適用*/
+        #nav ul li { 
+        display: inline-block;
+        /*inline-blockにします*/
+        width: 31%;
+        height: 200px;
+        /*<!-- f=1.272020 -->*/
+        padding: 5px;
+        margin: 0 1px 5px 0;
+        vertical-align: top;
+        text-align:left;
+        background-color:rgb(203, 203, 203);
+        font-weight: bold;
+        color:white;
+        font-size: 32px;
+        }
