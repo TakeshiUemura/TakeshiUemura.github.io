@@ -44,6 +44,15 @@
 	}
 	-->
 </style>
+<script>
+    (function(){
+        var ua = navigator.userAgent;
+        if (ua.indexOf('iPhone') > -1 || ua.indexOf('Android') > -1) {
+			document.write('<link rel="stylesheet" href="mobile.css">');
+        }
+    })();
+</script>
+
 </head>
 <body>
 	<div id="nav">
