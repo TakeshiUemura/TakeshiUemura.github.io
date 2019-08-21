@@ -27,3 +27,12 @@
         color:white;
         font-size: 32px;
         }
+
+p   {
+    font-size: 4vw;
+    max-height: 100%;   /*chromeのbug対処*/
+    }
+
+img	{
+    width: 90%;
+    }
